@@ -25,9 +25,9 @@
     z="0.0"
     transform="mul [ projection { fov: 1.0 }, lookat { eye: { x: 1.0, y: 1.0, z: @this.z }, center: { x: 0.0, y: 0.0, z: 0.0 } } ]">
     <Entity
-      mesh="mesh_from_file '../assets/Barrel1.x'"
-      texture="texture_from_file '../assets/Barrel1.png'"
-      _texture="texture_from_file '../assets/kitten.jpg'"
+      mesh="mesh_from_file 'assets/Barrel1.x'"
+      texture="texture_from_file 'assets/Barrel1.png'"
+      _texture="texture_from_file 'assets/kitten.jpg'"
       transform="mul [ @parent.transform, translate { x: 0.0, y: 0.0, z: 0.0 }, scale { x: 0.1, y: 0.1, z: 0.1 } ]" />
     <Triangle
       name="tmp"
@@ -43,6 +43,6 @@
       texture="static_texture { pixels: [0, 255, 0, 255, 0, 0, 255, 255, 255, 0, 0, 255, 255, 255, 0, 255], width: 2, height: 2 }"/>
     <Rectangle
       transform="translate { x: 0.0, y: 0.0, z: 0.9 }"
-      texture="texture_from_file '../assets/kitten.jpg'"/>
+      texture="texture_from_file 'assets/kitten.jpg'"/>
   </Scene>
 </Pml>
