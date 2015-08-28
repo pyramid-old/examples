@@ -49,19 +49,19 @@
   <Blueprint
       name="Leaf2"
       inherits="DmlEntity"
-      mesh="mesh_from_file 'assets/DeadMeetsLeadContent/Data/Models/Props/Leaf2.x'"
+      mesh="mesh_from_file { filename: 'assets/DeadMeetsLeadContent/Data/Models/Props/Leaf2.x', mesh_id: 'polySurfaceShape20' }"
       texture="texture_from_file 'assets/DeadMeetsLeadContent/Data/Models/Props/Leaf1.png'"
     />
   <Blueprint
       name="Palmtree1"
       inherits="DmlEntity"
-      mesh="mesh_from_file 'assets/DeadMeetsLeadContent/Data/Models/Props/Palmtree1.x'"
+      mesh="mesh_from_file { filename: 'assets/DeadMeetsLeadContent/Data/Models/Props/Palmtree1.x', mesh_id: 'polySurfaceShape2' }"
       texture="texture_from_file 'assets/DeadMeetsLeadContent/Data/Models/Props/Palmtree1.png'"
     />
   <Blueprint
       name="Palmtree2"
       inherits="DmlEntity"
-      mesh="mesh_from_file 'assets/DeadMeetsLeadContent/Data/Models/Props/Palmtree2.x'"
+      mesh="mesh_from_file { filename: 'assets/DeadMeetsLeadContent/Data/Models/Props/Palmtree2.x', mesh_id: 'polySurfaceShape1' }"
       texture="texture_from_file 'assets/DeadMeetsLeadContent/Data/Models/Props/Palmtree2.png'"
     />
   <Blueprint
@@ -103,7 +103,7 @@
   <Blueprint
       name="WaterLily1"
       inherits="DmlEntity"
-      mesh="mesh_from_file 'assets/DeadMeetsLeadContent/Data/Models/Props/WaterLily1.x'"
+      mesh="mesh_from_file { filename: 'assets/DeadMeetsLeadContent/Data/Models/Props/WaterLily1.x', mesh_id: 'pPlaneShape2' }"
       texture="texture_from_file 'assets/DeadMeetsLeadContent/Data/Models/Props/WaterLily1.png'"
     />
 </Pml>
