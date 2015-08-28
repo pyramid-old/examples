@@ -3,7 +3,7 @@
   <Include file="dml_props.pml" />
 
   <Entity
-    transform="mul [ projection { fov: 1.0, far: 1000.0 }, lookat { eye: { x: 55.0, y: 150.0, z: 40.0 }, center: { x: 75.0, y: 170.0, z: 0.0 } } ]"
+    transform="mul [ projection { fov: 1.0, far: 1000.0 }, lookat { eye: { x: 55.0, y: 150.0, z: 200.0 }, center: { x: 75.0, y: 170.0, z: 0.0 } } ]"
     >
     <Palmtree1 translation="{ x: 75.49947, y: 131.2543, z: 0.1976929 }"/>
     <Palmtree1 translation="{ x: 75.51555, y: 128.56, z: 0.4147339 }"/>

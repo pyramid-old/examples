@@ -7,13 +7,13 @@
   <Blueprint
       name="Fern1"
       inherits="DmlEntity"
-      mesh="mesh_from_file 'assets/DeadMeetsLeadContent/Data/Models/Props/Fern1.x'"
+      mesh="mesh_from_file { filename: 'assets/DeadMeetsLeadContent/Data/Models/Props/Fern1.x', mesh_id: 'polySurfaceShape1' } "
       texture="texture_from_file 'assets/DeadMeetsLeadContent/Data/Models/Props/Fern1.png'"
     />
   <Blueprint
       name="Fern2"
       inherits="DmlEntity"
-      mesh="mesh_from_file 'assets/DeadMeetsLeadContent/Data/Models/Props/Fern2.x'"
+      mesh="mesh_from_file { filename: 'assets/DeadMeetsLeadContent/Data/Models/Props/Fern2.x', mesh_id: 'polySurfaceShape3' }"
       texture="texture_from_file 'assets/DeadMeetsLeadContent/Data/Models/Props/Fern2.png'"
     />
   <Blueprint
@@ -25,7 +25,7 @@
   <Blueprint
       name="Flower1"
       inherits="DmlEntity"
-      mesh="mesh_from_file 'assets/DeadMeetsLeadContent/Data/Models/Props/Flower1.x'"
+      mesh="mesh_from_file { filename: 'assets/DeadMeetsLeadContent/Data/Models/Props/Flower1.x', mesh_id: 'polySurfaceShape6' }"
       texture="texture_from_file 'assets/DeadMeetsLeadContent/Data/Models/Props/Flower1.png'"
     />
   <Blueprint
