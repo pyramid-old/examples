@@ -1,0 +1,3 @@
+[submodule "assets/DeadMeetsLeadContent"]
+	path = assets/DeadMeetsLeadContent
+	url = git@github.com:Keldyn/DeadMeetsLeadContent.git
