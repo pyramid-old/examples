@@ -66,4 +66,4 @@ function toXml(node, entity) {
 var doc = new libxmljs.Document();
 toXml(doc.node('Pml'), root);
 
-fs.writeFileSync('../examples/levela.pml', doc.toString());
+fs.writeFileSync('../levela.pml', doc.toString());
