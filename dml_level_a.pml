@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Pml templates="[templates_from_file 'dml_props.tpml']">
 
-  <Entity
+  <Scene
     animation="key_framed { property: this.z, keys: [{ time: 0.0, value: 0.0 }, { time: 0.5, value: 20.0 }, { time: 1.0, value: 0.0 }], loop: 'forever', duration: 10.0 }"
     z="0.0"
-    transform="mul [ projection { fov: 1.0, far: 1000.0 }, lookat { eye: { x: 85.0, y: 140.0, z: @this.z }, center: { x: 95.0, y: 150.0, z: 0.0 } } ]"
+    camera="mul [ projection { fov: 1.0, far: 1000.0 }, lookat { eye: { x: 85.0, y: 140.0, z: @this.z }, center: { x: 95.0, y: 150.0, z: 0.0 } } ]"
     >
     <Palmtree1 translation="{ x: 75.49947, y: 131.2543, z: 0.1976929 }"/>
     <Palmtree1 translation="{ x: 75.51555, y: 128.56, z: 0.4147339 }"/>
