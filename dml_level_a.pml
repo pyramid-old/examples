@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pml templates="[templates_from_file 'dml_props.tpml']">
+<Pml templates="[templates_from_file 'dml_entity.tpml', templates_from_file 'dml_props_plants.tpml', templates_from_file 'dml_props_man_made.tpml']">
 
   <Scene
     animation="key_framed { property: this.z, keys: [{ time: 0.0, value: 0.0 }, { time: 0.5, value: 20.0 }, { time: 1.0, value: 0.0 }], loop: 'forever', duration: 10.0 }"
