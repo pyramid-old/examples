@@ -9,8 +9,15 @@
     <Ground
       shader="shader_program { vertex: shader_from_file '../assets/ground_vs.glsl', fragment: shader_from_file '../assets/ground_fs.glsl' }"
       mesh="grid_mesh { n_vertices_width: 300, n_vertices_height: 300 }"
-      diffuse="texture_from_file 'splat1.png'"
-      textures="{ diffuse: @this.diffuse, heightmap: texture_from_file 'heightmap.dhm' }"
+      textures="{
+        splat1: texture_from_file 'splat1.png',
+        diffuse1: texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/GroundTextures/Grass1.png',
+        diffuse2: texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/GroundTextures/Grass2.png',
+        diffuse3: texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/GroundTextures/Moss1.png',
+        diffuse4: texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/GroundTextures/Mud1.png',
+        diffuse5: texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/GroundTextures/Rock1.png',
+        heightmap: texture_from_file 'heightmap.dhm'
+      }"
       transform="scale { x: 200.0, y: 200.0, z: 1.0 }" />
 
     <Palmtree1 translation="{ x: 75.49947, y: 131.2543, z: 0.1976929 }"/>
