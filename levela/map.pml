@@ -11,11 +11,16 @@
       mesh="grid_mesh { n_vertices_width: 300, n_vertices_height: 300 }"
       textures="{
         splat1: texture_from_file 'splat1.png',
-        diffuse1: texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/GroundTextures/Grass1.png',
-        diffuse2: texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/GroundTextures/Grass2.png',
-        diffuse3: texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/GroundTextures/Moss1.png',
-        diffuse4: texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/GroundTextures/Mud1.png',
-        diffuse5: texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/GroundTextures/Rock1.png',
+        splat2: texture_from_file 'splat2.png',
+        base: texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/GroundTextures/Mud1.png',
+        diffuse1: texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/GroundTextures/Rock1.png',
+        diffuse2: texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/GroundTextures/Pebbles1.png',
+        diffuse3: texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/GroundTextures/Sand1.png',
+        diffuse4: texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/GroundTextures/Grass1.png',
+        diffuse5: texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/GroundTextures/Moss1.png',
+        diffuse6: texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/GroundTextures/Mayatile1.png',
+        diffuse7: texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/GroundTextures/Field1.png',
+        diffuse8: texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/GroundTextures/Sand1.png',
         heightmap: texture_from_file 'heightmap.dhm'
       }"
       transform="scale { x: 200.0, y: 200.0, z: 1.0 }" />
