@@ -6,6 +6,13 @@
     z="0.0"
     camera="mul [ projection { fov: 1.0, far: 1000.0 }, lookat { eye: { x: 85.0, y: 140.0, z: @this.z }, center: { x: 95.0, y: 150.0, z: 0.0 } } ]"
     >
+    <Ground
+      shader="shader_program { vertex: shader_from_file '../assets/ground_vs.glsl', fragment: shader_from_file '../assets/ground_fs.glsl' }"
+      mesh="grid_mesh { n_vertices_width: 300, n_vertices_height: 300 }"
+      diffuse="texture_from_file 'splat1.png'"
+      textures="{ diffuse: @this.diffuse, heightmap: texture_from_file 'heightmap.dhm' }"
+      transform="scale { x: 200.0, y: 200.0, z: 1.0 }" />
+
     <Palmtree1 translation="{ x: 75.49947, y: 131.2543, z: 0.1976929 }"/>
     <Palmtree1 translation="{ x: 75.51555, y: 128.56, z: 0.4147339 }"/>
     <Palmtree2 translation="{ x: 95.31943, y: 132.3079, z: 0.2930298 }"/>
