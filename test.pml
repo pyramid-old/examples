@@ -6,8 +6,9 @@
     >
     <Entity
       shader="shader_program { vertex: shader_from_file 'assets/ground_vs.glsl', fragment: shader_from_file 'assets/ground_fs.glsl' }"
-      mesh="grid_mesh { n_vertices_width: 3, n_vertices_height: 3 }"
+      mesh="grid_mesh { n_vertices_width: 300, n_vertices_height: 300 }"
       diffuse="texture_from_file 'assets/DeadMeetsLeadContent/Data/Models/Props/Fern1.png'"
-      textures="{ diffuse: @this.diffuse }" />
+      textures="{ diffuse: @this.diffuse, heightmap: texture_from_file 'assets/DeadMeetsLeadContent/Data/Models/Props/Flower1.png' }"
+      transform="scale { x: 3.0, y: 3.0, z: 1.0 }" />
   </Scene>
 </Pml>
