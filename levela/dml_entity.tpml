@@ -1,5 +1,7 @@
 <Tpml>
   <DmlEntity
+      animation_Idle1="()"
+      animation="@this.animation_Idle1"
       translation="{ x: 0.0, y: 0.0, z: 0.0 }"
       transform="mul [ translate @this.translation, rotate_x 3.1415, rotate_y 1.57, rotate_z -1.57, scale { x: 0.1, y: 0.1, z: 0.1 } ]"
       />
