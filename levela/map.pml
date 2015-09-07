@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pml templates="[templates_from_file 'dml_entity.tpml', templates_from_file 'dml_props_plants.tpml', templates_from_file 'dml_props_man_made.tpml']">
+<Pml templates="[
+  templates_from_file 'dml_entity.tpml',
+  templates_from_file 'dml_props_plants.tpml',
+  templates_from_file 'dml_props_man_made.tpml',
+  templates_from_file 'dml_props_generic.tpml']">
 
   <Scene
     camera="mul [ projection { fov: 1.0, far: 1000.0 }, lookat { eye: { x: 85.0, y: 140.0, z: 2.0 }, center: { x: 95.0, y: 150.0, z: 0.0 } } ]"
@@ -1440,5 +1444,5 @@
     <MistDecal2 translation="{ x: 12.07384, y: 127.2892, z: 2.479999 }"/>
     <MistDecal2 translation="{ x: 14.82627, y: 132.7778, z: 2.509999 }"/>
     <MistDecal2 translation="{ x: 54.04432, y: 124.31, z: 1.960001 }"/>
-  </Entity>
+  </Scene>
 </Pml>
