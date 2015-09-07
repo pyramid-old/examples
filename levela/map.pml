@@ -2,9 +2,7 @@
 <Pml templates="[templates_from_file 'dml_entity.tpml', templates_from_file 'dml_props_plants.tpml', templates_from_file 'dml_props_man_made.tpml']">
 
   <Scene
-    animation="key_framed { property: this.z, keys: [{ time: 0.0, value: 2.0 }, { time: 0.5, value: 20.0 }, { time: 1.0, value: 2.0 }], loop: 'forever', duration: 10.0 }"
-    z="0.0"
-    camera="mul [ projection { fov: 1.0, far: 1000.0 }, lookat { eye: { x: 85.0, y: 140.0, z: @this.z }, center: { x: 95.0, y: 150.0, z: 0.0 } } ]"
+    camera="mul [ projection { fov: 1.0, far: 1000.0 }, lookat { eye: { x: 85.0, y: 140.0, z: 2.0 }, center: { x: 95.0, y: 150.0, z: 0.0 } } ]"
     >
     <Ground
       shader="shader_program { vertex: shader_from_file '../assets/ground_vs.glsl', fragment: shader_from_file '../assets/ground_fs.glsl' }"
