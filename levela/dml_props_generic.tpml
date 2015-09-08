@@ -86,6 +86,7 @@
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Spiderweb1.png'"
       shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.01 }"
+      alpha="true"
     />
   <Stone1
       inherits="DmlEntity"
@@ -111,6 +112,7 @@
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Tallgrass1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Tallgrass1.png'"
+      alpha="true"
     />
   <Tallgrass2
       inherits="DmlEntity"
