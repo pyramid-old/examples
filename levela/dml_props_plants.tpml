@@ -3,7 +3,7 @@
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Fern1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Fern1.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.6 }"
     />
   <Fern2
@@ -15,7 +15,7 @@
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/FieldPlant1.x'"
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/FieldPlant1.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <Flower1
@@ -27,7 +27,7 @@
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Forestplants1.x'"
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Forestplants1.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.01 }"
       alpha="true"
     />
@@ -35,7 +35,7 @@
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Forestplants2.x'"
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Forestplants2.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.01 }"
       alpha="true"
     />
@@ -53,63 +53,63 @@
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Palmtree1.x'"
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Palmtree1.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.4 }"
     />
   <Palmtree2
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Palmtree2.x'"
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Palmtree2.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.4 }"
     />
   <Rottentree1
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Rottentree1.x'"
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Rottentree1.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <Shrub1
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Shrub1.x'"
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Shrub1.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.4 }"
     />
   <Shrub2
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Shrub2.x'"
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Shrub2.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.4 }"
     />
   <Shrubbery1
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Shrubbery1.x'"
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Shrub1.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.4 }"
     />
   <Swamptree1
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Swamptree1.x'"
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Swamptree1.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.4 }"
     />
   <Swamptree2
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Swamptree2.x'"
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Swamptree1.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.4 }"
     />
   <WaterLily1
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/WaterLily1.x'"
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/WaterLily1.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
 </Tpml>

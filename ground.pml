@@ -5,7 +5,7 @@
     camera="mul [ projection { fov: 1.0, far: 1000.0 }, lookat { eye: { x: 85.0, y: 140.0, z: @this.z }, center: { x: 95.0, y: 150.0, z: 0.0 } } ]"
     >
     <Entity
-      shader="shader_program { vertex: shader_from_file 'assets/ground_vs.glsl', fragment: shader_from_file 'assets/ground_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file 'assets/shaders/ground_vs.glsl', fragment: shader_from_file 'assets/shaders/ground_fs.glsl' }"
       mesh="grid_mesh { n_vertices_width: 300, n_vertices_height: 300 }"
       textures="{
         splat1: texture_from_file 'levela/splat1.png',

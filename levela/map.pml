@@ -10,7 +10,7 @@
     camera="mul [ projection { fov: 1.0, far: 1000.0 }, lookat { eye: { x: 85.0, y: 140.0, z: 2.0 }, center: { x: 95.0, y: 150.0, z: 0.0 } } ]"
     >
     <Ground
-      shader="shader_program { vertex: shader_from_file '../assets/ground_vs.glsl', fragment: shader_from_file '../assets/ground_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/ground_vs.glsl', fragment: shader_from_file '../assets/shaders/ground_fs.glsl' }"
       mesh="grid_mesh { n_vertices_width: 300, n_vertices_height: 300 }"
       textures="{
         splat1: texture_from_file 'splat1.png',
@@ -27,7 +27,7 @@
         heightmap: texture_from_file 'heightmap.dhm'
       }"
       transform="scale { x: 200.0, y: 200.0, z: 1.0 }" />
-      
+
     <MainCharacter translation="{ x: 48.44241, y: 164.1284, z: 0.5109786 }" rotation="{ x: 0, y: 0, z: -0.2425591, w: 0.9701366 }" scale="{ x: 1, y: 1, z: 1 }"/>
     <Grunt translation="{ x: 80.46587, y: 151.2545, z: 0.3633041 }" rotation="{ x: 0, y: 0, z: 0.9391237, w: -0.3435793 }" scale="{ x: 1.060556, y: 1.060556, z: 1.060556 }"/>
     <Grunt translation="{ x: 84.94391, y: 155.0886, z: 0.3602295 }" rotation="{ x: 0, y: 0, z: 0.9288596, w: -0.370432 }" scale="{ x: 1.077631, y: 1.077631, z: 1.077631 }"/>

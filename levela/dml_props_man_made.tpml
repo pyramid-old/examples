@@ -88,14 +88,14 @@
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Cart1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Cart1.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <Cart2
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Cart2.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Cart1.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <Crate1
@@ -137,21 +137,21 @@
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Fireplace1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Fireplace1.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <FireplaceBurning1
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/FireplaceBurning1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/FireplaceBurning1.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <FloatingPlank1
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/FloatingPlank1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/FloatingPlank1.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <FloatingPlank2
@@ -168,14 +168,14 @@
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Hut1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Hut1.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <Hut2
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Hut2.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Hut1.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <Piranhasign
@@ -187,21 +187,21 @@
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/PostLantern1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/PostLantern1.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.6 }"
     />
   <Torch1
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Torch1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Torch1.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.6 }"
     />
   <PostLantern2
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/PostLantern1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/PostLantern2.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.6 }"
     />
   <Rifle1
@@ -228,7 +228,7 @@
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Rope1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Rope1.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <Sword1
@@ -280,7 +280,7 @@
       inherits="DmlEntity"
       directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Tent1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Tent1.png'"
-      shader="shader_program { vertex: shader_from_file '../assets/basic_vs.glsl', fragment: shader_from_file '../assets/alpha_tested_fs.glsl' }"
+      shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <Totem1
