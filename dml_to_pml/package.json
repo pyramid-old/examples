@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "libxmljs": "^0.14.2",
+    "file": "^0.2.2",
+    "libxmljs": "^0.14.2"
   }
 }
