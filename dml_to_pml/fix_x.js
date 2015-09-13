@@ -24,6 +24,14 @@ file.walk("../assets/DeadMeetsLeadContent", function(err, dirPath, dirs, files) 
       }
       return 'AnimationKey {' + rows.join('\n') + '}';
     });
+    content = content.replace(/SkinWeights {([^}]*)}/g, function(match, p1, offset, string) {
+      var x = p1.split(';');
+      if (x[1].trim() == '0') {
+        return '';
+      } else {
+        return 'SkinWeights {' + p1 + '}';
+      }
+    });
     fs.writeFileSync(filename, content);
   });
 });
