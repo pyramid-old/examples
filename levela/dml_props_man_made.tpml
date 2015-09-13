@@ -1,316 +1,316 @@
 <Tpml>
   <Altar1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Altar1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Altar1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Wall1.png'"
     />
   <AlligatorWine
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Bottle1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Bottle1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/AWBottle1.png'"
     />
   <Barrel1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Barrel1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Barrel1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Barrel1.png'"
     />
   <Barrel2
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Barrel2.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Barrel2.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Barrel2.png'"
     />
   <Bench1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Bench1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Bench1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Bench1.png'"
     />
   <Bench2
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Bench2.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Bench2.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Bench1.png'"
     />
   <Boat1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Boat1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Boat1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Boat1.png'"
     />
   <Boat2
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Boat2.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Boat2.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Boat1.png'"
     />
   <Bridge1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Bridge1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Bridge1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Bridge1.png'"
     />
   <BridgeRaising1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/BridgeRaising1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/BridgeRaising1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Bridge1.png'"
     />
   <Bucket1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Bucket1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Bucket1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Bucket1.png'"
     />
   <Bucket2
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Bucket2.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Bucket2.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Bucket1.png'"
     />
   <Bucket3
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Bucket3.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Bucket3.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Bucket1.png'"
     />
   <Cannon1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Cannon1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Cannon1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Cannon1.png'"
     />
   <Cannon2
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Cannon2.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Cannon2.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Cannon1.png'"
     />
   <Cannonball1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Cannonball1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Cannonball1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Cannonball1.png'"
     />
   <Cannonball2
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Cannonball2.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Cannonball2.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Cannonball1.png'"
     />
   <Cart1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Cart1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Cart1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Cart1.png'"
       shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <Cart2
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Cart2.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Cart2.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Cart1.png'"
       shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <Crate1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Crate1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Crate1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Crate1.png'"
     />
   <Crate2
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Crate2.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Crate2.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Crate1.png'"
     />
   <Crate3
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Crate3.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Crate3.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Crate1.png'"
     />
   <Fence1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Fence1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Fence1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Fence1.png'"
     />
   <Fence2
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Fence2.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Fence2.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Fence1.png'"
     />
   <Fence3
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Fence3.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Fence3.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Fence1.png'"
     />
   <Fence4
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Fence4.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Fence4.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Fence1.png'"
     />
   <Fireplace1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Fireplace1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Fireplace1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Fireplace1.png'"
       shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <FireplaceBurning1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/FireplaceBurning1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/FireplaceBurning1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/FireplaceBurning1.png'"
       shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <FloatingPlank1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/FloatingPlank1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/FloatingPlank1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/FloatingPlank1.png'"
       shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <FloatingPlank2
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/FloatingPlank2.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/FloatingPlank2.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/FloatingPlank2.png'"
     />
   <Hammer1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Hammer1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Hammer1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Hammer1.png'"
     />
   <Hut1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Hut1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Hut1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Hut1.png'"
       shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <Hut2
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Hut2.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Hut2.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Hut1.png'"
       shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <Piranhasign
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Piranhasign1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Piranhasign1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Piranhasign1.png'"
     />
   <PostLantern1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/PostLantern1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/PostLantern1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/PostLantern1.png'"
       shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.6 }"
     />
   <Torch1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Torch1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Torch1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Torch1.png'"
       shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.6 }"
     />
   <PostLantern2
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/PostLantern1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/PostLantern1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/PostLantern2.png'"
       shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.6 }"
     />
   <Rifle1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Rifle1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Rifle1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Rifle1.png'"
     />
   <HandCannon1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/HandCannon1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/HandCannon1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/HandCannon1.png'"
     />
   <HandMortar1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/HandMortar1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/HandMortar1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/HandMortar1.png'"
     />
   <GatlingGun1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/GatlingGun1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/GatlingGun1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/GatlingGun1.png'"
     />
   <Rope1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Rope1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Rope1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Rope1.png'"
       shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <Sword1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Sword1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Sword1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Sword1.png'"
     />
   <Sword2
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Sword1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Sword1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Sword2.png'"
     />
   <Sword3
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Sword1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Sword1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Sword3.png'"
     />
   <Spear1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Spear1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Spear1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Spear1.png'"
     />
   <Spear2
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Spear1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Spear1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Spear2.png'"
     />
   <Spear3
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Spear1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Spear1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Spear3.png'"
     />
   <MayaHammer1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/MayaHammer1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/MayaHammer1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/MayaHammer1.png'"
     />
   <MayaHammer2
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/MayaHammer1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/MayaHammer1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/MayaHammer2.png'"
     />
   <MayaHammer3
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/MayaHammer1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/MayaHammer1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/MayaHammer3.png'"
     />
   <Tent1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Tent1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Tent1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Tent1.png'"
       shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <Totem1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Totem1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Totem1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Totem1.png'"
     />
   <Wall1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Wall1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Wall1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Wall1.png'"
     />
   <Wall2
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Wall2.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Wall2.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Wall1.png'"
     />
   <Wall3
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Wall3.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Wall3.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Wall1.png'"
     />
   <WallEnd1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/WallEnd1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/WallEnd1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/WallEnd1.png'"
     />
   <Gate1
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Props/Gate1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Props/Gate1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Props/Gate1.png'"
     />
 </Tpml>

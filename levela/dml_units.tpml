@@ -1,28 +1,28 @@
 <Tpml>
   <MainCharacter
     inherits="DmlEntity"
-    directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Units/MainCharacter1.x' "
+    subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Units/MainCharacter1.x' "
     diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Units/MainCharacter1.png'"
     shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
     uniforms="{ alpha_threshold: 0.99 }"
   />
   <Brute
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Units/Brute1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Units/Brute1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Units/Brute1.png'"
       shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <Grunt
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Units/Zombie1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Units/Zombie1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Units/Zombie1.png'"
       shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
     />
   <Rotten
       inherits="DmlEntity"
-      directx_x="'../assets/DeadMeetsLeadContent/Data/Models/Units/Rotten1.x' "
+      subdoc="'../assets/DeadMeetsLeadContent/Data/Models/Units/Rotten1.x' "
       diffuse="texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/Units/Rotten1.png'"
       shader="shader_program { vertex: shader_from_file '../assets/shaders/basic_vs.glsl', fragment: shader_from_file '../assets/shaders/alpha_tested_fs.glsl' }"
       uniforms="{ alpha_threshold: 0.99 }"
