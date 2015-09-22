@@ -10,7 +10,7 @@
       alpha_threshold="0.5"
       uniforms="{
         alpha_threshold: @this.alpha_threshold,
-        light_direction: vec3 { x: 1.0, y: 1.0, z: 1.0 },
+        light_direction: vec3 { x: 1.0, y: 0.0, z: 1.0 },
         diffuse_color: vec3 { x: 1.34, y: 1.26, z: 0.8 },
         ambient_color: vec3 { x: 0.4, y: 0.76, z: 0.78 }
       }"

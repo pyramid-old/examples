@@ -10,7 +10,7 @@
         shader="shader_program { vertex: shader_from_file 'assets/shaders/basic_vs.glsl', fragment: shader_from_file 'assets/shaders/alpha_tested_fs.glsl' }"
         uniforms="{
           alpha_threshold: 0.5,
-          light_direction: vec3 { x: 1.0, y: 1.0, z: 1.0 },
+          light_direction: vec3 { x: 1.0, y: 1.0, z: @scene.sun_z },
           diffuse_color: vec3 { x: 1.34, y: 1.26, z: 0.8 },
           ambient_color: vec3 { x: 0.4, y: 0.76, z: 0.78 }
         }"

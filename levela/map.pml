@@ -7,7 +7,18 @@
   templates_from_file 'dml_props_generic.tpml']">
 
   <Scene
-    camera="mul [ projection { fov: 1.0, far: 1000.0 }, lookat { eye: { x: 85.0, y: 140.0, z: 2.0 }, center: { x: 95.0, y: 150.0, z: 0.0 } } ]"
+    animation="key_framed { property: this.cam_x,
+      keys: [{ time: 0.0, value: 85.0 }, { time: 0.5, value: 90.0 }, { time: 1.0, value: 85.0 }],
+      loop: 'forever', curve_time: 'relative', duration: 40.0
+    }"
+    cam_x="0"
+    camera="mul [
+      projection { fov: 1.0, far: 1000.0 },
+      lookat {
+        eye: { x: @this.cam_x, y: 140.0, z: 2.0 },
+        center: { x: 95.0, y: 150.0, z: 0.0 }
+      }
+    ]"
     >
     <Ground
       shader="shader_program { vertex: shader_from_file '../assets/shaders/ground_vs.glsl', fragment: shader_from_file '../assets/shaders/ground_fs.glsl' }"
@@ -26,7 +37,28 @@
         diffuse8: texture_from_file '../assets/DeadMeetsLeadContent/Data/Models/GroundTextures/Sand1.png',
         heightmap: texture_from_file 'heightmap.dhm'
       }"
-      transform="scale { x: 200.0, y: 200.0, z: 1.0 }" />
+      transform="scale { x: 200.0, y: 200.0, z: 1.0 }"
+      uniforms="{
+        light_direction: vec3 { x: 1.0, y: 0.0, z: 1.0 },
+        diffuse_color: vec3 { x: 1.34, y: 1.26, z: 0.8 },
+        ambient_color: vec3 { x: 0.4, y: 0.76, z: 0.78 }
+      }"
+      />
+
+    <DmlEntity
+      translation="{ x: 95.0, y: 150.0, z: 0.0 }"
+      animation="key_framed { property: this.rotation_z,
+        keys: [{ time: 0.0, value: 0.0 }, { time: 1.0, value: 6.2831 }],
+        loop: 'forever', curve_time: 'relative', duration: 400.0
+      }"
+      scale="{ x: 10, y: 1, z: 1 }"
+      subdoc="'../assets/skybox1.x'"
+      shader="'basic'"
+      transform="mul [ translate @this.translation, rotate_z @this.rotation_z, rotate_x 3.1415, rotate_y 1.57, rotate_z -1.57 ]"
+      diffuse="texture_from_file '../assets/skybox1.png'"
+      />
+    <!-- <Chicken1 translation="{ x: 95.0, y: 150.0, z: 0.0 }" scale="{ x: 0.1, y: 0.1, z: 0.1 }" shader="()" />
+    <Chicken1 translation="{ x: 96.0, y: 151.0, z: 1.0 }" scale="{ x: 0.1, y: 0.1, z: 0.1 }" shader="()" /> -->
 
     <MainCharacter translation="{ x: 48.44241, y: 164.1284, z: 0.5109786 }" rotation="{ x: 0, y: 0, z: -0.2425591, w: 0.9701366 }" scale="{ x: 1, y: 1, z: 1 }"/>
     <Grunt translation="{ x: 80.46587, y: 151.2545, z: 0.3633041 }" rotation="{ x: 0, y: 0, z: 0.9391237, w: -0.3435793 }" scale="{ x: 1.060556, y: 1.060556, z: 1.060556 }"/>
