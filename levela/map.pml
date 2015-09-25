@@ -7,15 +7,22 @@
   templates_from_file 'dml_props_generic.tpml']">
 
   <Scene
-    animation="key_framed { property: this.cam_x,
-      keys: [{ time: 0.0, value: 85.0 }, { time: 0.5, value: 90.0 }, { time: 1.0, value: 85.0 }],
-      loop: 'forever', curve_time: 'relative', duration: 40.0
+    name="scene"
+    _animation="key_framed { property: this.cam_eye,
+      keys: [
+        [0, vec3 { x: 85, y: 140, z: 20 }],
+        [15, vec3 { x: 30, y: 50, z: 5 }],
+        [40, vec3 { x: 85, y: 100, z: 2 }],
+        [60, vec3 { x: 90, y: 140, z: 2 }],
+        [70, vec3 { x: 85, y: 140, z: 20 }]
+      ],
+      loop: 'forever', curve_time: 'absolute', duration: 70.0
     }"
-    cam_x="0"
+    cam_eye="{ x: 85, y: 140, z: 2 }"
     camera="mul [
       projection { fov: 1.0, far: 1000.0 },
       lookat {
-        eye: { x: @this.cam_x, y: 140.0, z: 2.0 },
+        eye: @this.cam_eye,
         center: { x: 95.0, y: 150.0, z: 0.0 }
       }
     ]"
@@ -46,7 +53,7 @@
       />
 
     <DmlEntity
-      translation="{ x: 95.0, y: 150.0, z: 0.0 }"
+      translation="@scene.cam_eye"
       animation="key_framed { property: this.rotation_z,
         keys: [{ time: 0.0, value: 0.0 }, { time: 1.0, value: 6.2831 }],
         loop: 'forever', curve_time: 'relative', duration: 400.0
