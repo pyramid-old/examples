@@ -6,7 +6,6 @@
     sun_z="1.0"
     >
     <DmlEntity
-        animation="()"
         shader="shader_program { vertex: shader_from_file 'assets/shaders/basic_vs.glsl', fragment: shader_from_file 'assets/shaders/alpha_tested_fs.glsl' }"
         uniforms="{
           alpha_threshold: 0.5,
@@ -14,8 +13,8 @@
           diffuse_color: vec3 { x: 1.34, y: 1.26, z: 0.8 },
           ambient_color: vec3 { x: 0.4, y: 0.76, z: 0.78 }
         }"
-        subdoc="'assets/DeadMeetsLeadContent/Data/Models/Props/Stone1.x'"
-        diffuse="texture_from_file 'assets/DeadMeetsLeadContent/Data/Models/Props/Stone1.png'"
+        subdoc="'assets/DeadMeetsLeadContent/Data/Models/Props/Palmtree1.x'"
+        diffuse="texture_from_file 'assets/DeadMeetsLeadContent/Data/Models/Props/Palmtree1.png'"
       />
   </Scene>
 </Pml>
